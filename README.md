@@ -35,10 +35,34 @@
 
 ## Структура проекта
 
-ZooManagement/ ├── Domain/ │ ├── IAlive.cs │ ├── IInventory.cs │ ├── Animal.cs │ ├── Herbo.cs │ ├── Predator.cs │ ├── Monkey.cs │ ├── Rabbit.cs │ ├── Tiger.cs │ ├── Wolf.cs │ ├── Thing.cs │ ├── Table.cs │ └── Computer.cs ├── Services/ │ ├── IVetClinic.cs │ ├── VetClinic.cs │ ├── IZoo.cs │ └── Zoo.cs ├── Business/ │ └── ZooManager.cs ├── UI/ │ ├── UserInput.cs │ └── UserInterface.cs ├── Program.cs └── ZooManagement.Test/ <-- проект с юнит-тестами (используется xUnit)
-
-markdown
-Копировать
+```bash
+ZooManagement/
+├── Domain/
+│   ├── IAlive.cs
+│   ├── IInventory.cs
+│   ├── Animal.cs
+│   ├── Herbo.cs
+│   ├── Predator.cs
+│   ├── Monkey.cs
+│   ├── Rabbit.cs
+│   ├── Tiger.cs
+│   ├── Wolf.cs
+│   ├── Thing.cs
+│   ├── Table.cs
+│   └── Computer.cs
+├── Services/
+│   ├── IVetClinic.cs
+│   ├── VetClinic.cs
+│   ├── IZoo.cs
+│   └── Zoo.cs
+├── Business/
+│   └── ZooManager.cs
+├── UI/
+│   ├── UserInput.cs
+│   └── UserInterface.cs
+├── Program.cs
+└── ZooManagement.Test/
+    └── ... (тестовые файлы .cs)
 
 ## Инструкция по запуску
 
